@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		AA1159061C1B102C00FA2CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1159051C1B102C00FA2CBD /* main.m */; };
 		AA1159091C1B102C00FA2CBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1159081C1B102C00FA2CBD /* AppDelegate.m */; };
-		AA11590C1C1B102C00FA2CBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA11590B1C1B102C00FA2CBD /* ViewController.m */; };
+		AA11590C1C1B102C00FA2CBD /* PrimesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA11590B1C1B102C00FA2CBD /* PrimesViewController.m */; };
 		AA11590F1C1B102C00FA2CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA11590D1C1B102C00FA2CBD /* Main.storyboard */; };
 		AA1159111C1B102C00FA2CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1159101C1B102C00FA2CBD /* Assets.xcassets */; };
 		AA1159141C1B102C00FA2CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1159121C1B102C00FA2CBD /* LaunchScreen.storyboard */; };
+		AA11591D1C1B10CA00FA2CBD /* SimplesWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = AA11591C1C1B10CA00FA2CBD /* SimplesWorker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		AA1159051C1B102C00FA2CBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA1159071C1B102C00FA2CBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA1159081C1B102C00FA2CBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA11590A1C1B102C00FA2CBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA11590B1C1B102C00FA2CBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA11590A1C1B102C00FA2CBD /* PrimesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimesViewController.h; sourceTree = "<group>"; };
+		AA11590B1C1B102C00FA2CBD /* PrimesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimesViewController.m; sourceTree = "<group>"; };
 		AA11590E1C1B102C00FA2CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA1159101C1B102C00FA2CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1159131C1B102C00FA2CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1159151C1B102C00FA2CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA11591B1C1B10CA00FA2CBD /* SimplesWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplesWorker.h; sourceTree = "<group>"; };
+		AA11591C1C1B10CA00FA2CBD /* SimplesWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplesWorker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +63,15 @@
 			children = (
 				AA1159071C1B102C00FA2CBD /* AppDelegate.h */,
 				AA1159081C1B102C00FA2CBD /* AppDelegate.m */,
-				AA11590A1C1B102C00FA2CBD /* ViewController.h */,
-				AA11590B1C1B102C00FA2CBD /* ViewController.m */,
+				AA11590A1C1B102C00FA2CBD /* PrimesViewController.h */,
+				AA11590B1C1B102C00FA2CBD /* PrimesViewController.m */,
 				AA11590D1C1B102C00FA2CBD /* Main.storyboard */,
 				AA1159101C1B102C00FA2CBD /* Assets.xcassets */,
 				AA1159121C1B102C00FA2CBD /* LaunchScreen.storyboard */,
 				AA1159151C1B102C00FA2CBD /* Info.plist */,
 				AA1159041C1B102C00FA2CBD /* Supporting Files */,
+				AA11591B1C1B10CA00FA2CBD /* SimplesWorker.h */,
+				AA11591C1C1B10CA00FA2CBD /* SimplesWorker.m */,
 			);
 			path = Lesson15;
 			sourceTree = "<group>";
@@ -149,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA11590C1C1B102C00FA2CBD /* ViewController.m in Sources */,
+				AA11590C1C1B102C00FA2CBD /* PrimesViewController.m in Sources */,
+				AA11591D1C1B10CA00FA2CBD /* SimplesWorker.m in Sources */,
 				AA1159091C1B102C00FA2CBD /* AppDelegate.m in Sources */,
 				AA1159061C1B102C00FA2CBD /* main.m in Sources */,
 			);
